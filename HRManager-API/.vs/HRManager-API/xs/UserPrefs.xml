@@ -1,0 +1,68 @@
+﻿<Properties StartupConfiguration="{1ECEC7A8-A91E-426C-BEE7-AA0526BF4C3F}|https">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/Prenstation/Controllers/UserController.cs">
+    <Files>
+      <File FileName="Infrastructure/Persistance/Repositories/WriteRepository.cs" Line="37" Column="21" />
+      <File FileName="Infrastructure/Persistance/Repositories/ReadRepository.cs" Line="24" Column="22" />
+      <File FileName="Infrastructure/Persistance/Repositories/CategoryReadRepository.cs" Line="11" Column="56" />
+      <File FileName="Infrastructure/Persistance/Repositories/CategoryWriteRepository.cs" Line="11" Column="47" />
+      <File FileName="Infrastructure/Persistance/Repositories/EmployeeJobReadRepository.cs" Line="12" Column="10" />
+      <File FileName="Infrastructure/Persistance/Repositories/EmployeeJobWriteRepository.cs" Line="11" Column="52" />
+      <File FileName="Infrastructure/Persistance/Repositories/EmployeeReadRepository.cs" Line="11" Column="46" />
+      <File FileName="Infrastructure/Persistance/Repositories/EmployeeWriteRepository.cs" Line="11" Column="47" />
+      <File FileName="Infrastructure/Persistance/Repositories/JobReadRepository.cs" Line="11" Column="41" />
+      <File FileName="Infrastructure/Persistance/Repositories/JobWriteRepository.cs" Line="11" Column="42" />
+      <File FileName="Core/Application/CQRS/Commands/User/CreateUser/CreateUserCommandRequest.cs" Line="11" Column="1" />
+      <File FileName="Core/Application/CQRS/Commands/User/CreateUser/CreateUserCommandResponse.cs" Line="7" Column="39" />
+      <File FileName="Core/Application/CQRS/Commands/User/CreateUser/CreateUserCommandHandler.cs" Line="43" Column="6" />
+      <File FileName="Presentation/Prenstation/Controllers/UserController.cs" Line="32" Column="10" />
+      <File FileName="Infrastructure/Persistance/ServiceRegistration.cs" Line="28" Column="71" />
+      <File FileName="Presentation/Prenstation/Program.cs" Line="44" Column="25" />
+      <File FileName="Core/Application/ServiceRegistration.cs" Line="9" Column="46" />
+      <File FileName="Core/Application/CQRS/Commands/User/SignInUser/SignInUserCommandRequest.cs" Line="8" Column="21" />
+      <File FileName="Core/Application/CQRS/Commands/User/SignInUser/SignInUserCommandResponse.cs" Line="10" Column="18" />
+      <File FileName="Core/Application/CQRS/Commands/User/SignInUser/SignInUserCommandHandler.cs" Line="42" Column="14" />
+      <File FileName="Core/Application/DTOs/Token.cs" Line="7" Column="49" />
+      <File FileName="Core/Application/Services/ITokenHandler.cs" Line="7" Column="3" />
+      <File FileName="Infrastructure/Persistance/Services/TokenHandler.cs" Line="16" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HRManager-API" expanded="True" selected="True">
+            <Node name="Core" expanded="True">
+              <Node name="Application" expanded="True">
+                <Node name="CQRS" expanded="True">
+                  <Node name="Commands" expanded="True">
+                    <Node name="User" expanded="True">
+                      <Node name="SignInUser" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+                <Node name="DTOs" expanded="True" />
+                <Node name="Services" expanded="True" />
+              </Node>
+              <Node name="Domain" expanded="True" />
+            </Node>
+            <Node name="Infrastructure" expanded="True">
+              <Node name="Persistance" expanded="True">
+                <Node name="Services" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Presentation" expanded="True">
+              <Node name="Prenstation" expanded="True">
+                <Node name="Controllers" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Presentation.Prenstation PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
