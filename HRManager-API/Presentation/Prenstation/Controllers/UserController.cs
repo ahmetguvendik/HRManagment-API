@@ -17,7 +17,7 @@ namespace Prenstation.Controllers
             _mediator = mediator;
         }
 
-        [HttpPost]
+        [HttpPost("[action]")]
         public async Task<IActionResult> SignUp(CreateUserCommandRequest model)
         {
             var response = await _mediator.Send(model);

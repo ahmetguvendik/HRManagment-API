@@ -16,7 +16,7 @@ namespace Persistance.Services
             var token = new Token();
             SymmetricSecurityKey securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Bir berber bir berbere gel beraber bir berber dukkani acalim demis"));
             SigningCredentials signingCredentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
-            token.Expiration = DateTime.UtcNow.AddMinutes(1);
+            token.Expiration = DateTime.UtcNow.AddMinutes(5);
             JwtSecurityToken securityToken = new JwtSecurityToken(
                 audience: "www.ahmet.com",
                 issuer: "www.myapi.com",
