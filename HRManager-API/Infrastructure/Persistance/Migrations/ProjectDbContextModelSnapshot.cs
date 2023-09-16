@@ -160,10 +160,11 @@ namespace Persistance.Migrations
 
             modelBuilder.Entity("Domain.Entities.EmployeeJob", b =>
                 {
-                    b.Property<string>("EmployeeId")
+                    b.Property<string>("Id")
                         .HasColumnType("text");
 
-                    b.Property<string>("JobId")
+                    b.Property<string>("EmployeeId")
+                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<bool>("IsOk")
@@ -172,7 +173,13 @@ namespace Persistance.Migrations
                     b.Property<bool>("IsRed")
                         .HasColumnType("boolean");
 
-                    b.HasKey("EmployeeId", "JobId");
+                    b.Property<string>("JobId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EmployeeId");
 
                     b.HasIndex("JobId");
 

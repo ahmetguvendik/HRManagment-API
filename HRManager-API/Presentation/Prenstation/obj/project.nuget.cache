@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xCIDiFllK3jdJ8IBXNDBZK9gMl1IycsEbwpp51pBLOarOSbQYc6lsPZ8VF4Op0+onBKrkxS0ojIxhyuwe2re3g==",
+  "dgSpecHash": "DeZGLM5Ow8gQwylV8m4EVxHRlElcOVehHaelBrdivFa5jaBpCtiKqaVivfG7GulwIwYF5DHKqIo5obwCVF1vvA==",
   "success": true,
   "projectFilePath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/HRManager-API/Presentation/Prenstation/Prenstation.csproj",
   "expectedPackageFiles": [
@@ -55,8 +55,8 @@
     "/Users/ahmetguvendik/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "/Users/ahmetguvendik/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
     "/Users/ahmetguvendik/.nuget/packages/microsoft.win32.registry/4.5.0/microsoft.win32.registry.4.5.0.nupkg.sha512",
-    "/Users/ahmetguvendik/.nuget/packages/npgsql/7.0.4/npgsql.7.0.4.nupkg.sha512",
-    "/Users/ahmetguvendik/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.4/npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
+    "/Users/ahmetguvendik/.nuget/packages/npgsql/7.0.6/npgsql.7.0.6.nupkg.sha512",
+    "/Users/ahmetguvendik/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.11/npgsql.entityframeworkcore.postgresql.7.0.11.nupkg.sha512",
     "/Users/ahmetguvendik/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "/Users/ahmetguvendik/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/Users/ahmetguvendik/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",

@@ -20,6 +20,16 @@
     <None Remove="CQRS\Commands\Job\CreateJob\" />
     <None Remove="CQRS\Queries\Job\" />
     <None Remove="CQRS\Queries\Job\GetAll\" />
+    <None Remove="CQRS\Queries\Category\" />
+    <None Remove="CQRS\Queries\Category\GetAllCategory\" />
+    <None Remove="CQRS\Commands\Category\" />
+    <None Remove="CQRS\Commands\Category\CreateCategory\" />
+    <None Remove="CQRS\Queries\Employee\" />
+    <None Remove="CQRS\Queries\Employee\GetAllEmployee\" />
+    <None Remove="CQRS\Commands\Employee\" />
+    <None Remove="CQRS\Commands\Employee\CreateEmployee\" />
+    <None Remove="CQRS\Commands\Category\UpdateCategory\" />
+    <None Remove="CQRS\Commands\Category\RemoveCategory\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CQRS\" />
@@ -35,6 +45,16 @@
     <Folder Include="CQRS\Commands\Job\CreateJob\" />
     <Folder Include="CQRS\Queries\Job\" />
     <Folder Include="CQRS\Queries\Job\GetAll\" />
+    <Folder Include="CQRS\Queries\Category\" />
+    <Folder Include="CQRS\Queries\Category\GetAllCategory\" />
+    <Folder Include="CQRS\Commands\Category\" />
+    <Folder Include="CQRS\Commands\Category\CreateCategory\" />
+    <Folder Include="CQRS\Queries\Employee\" />
+    <Folder Include="CQRS\Queries\Employee\GetAllEmployee\" />
+    <Folder Include="CQRS\Commands\Employee\" />
+    <Folder Include="CQRS\Commands\Employee\CreateEmployee\" />
+    <Folder Include="CQRS\Commands\Category\UpdateCategory\" />
+    <Folder Include="CQRS\Commands\Category\RemoveCategory\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />

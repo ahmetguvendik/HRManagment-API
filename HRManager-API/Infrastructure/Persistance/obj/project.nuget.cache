@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "yn2C33Lf7RiLc+ELik1biISy0nZGBtubMARPt7MJ9qv+eUGPFW8fv4xgTKAzk+yUgUVbOWVliUhK8UkKAN0GvQ==",
+  "dgSpecHash": "N5cjVTEzZKa6dDsKnvlmrgVnjN4gifkZfN5gTTVP5BI3DgnPq74nCZLe26OZBV4zQ0e/4/Ze5vymN+cd5NZk5A==",
   "success": true,
   "projectFilePath": "/Users/ahmetguvendik/Desktop/Projeler/Asp.NetCore/HRManager-API/Infrastructure/Persistance/Persistance.csproj",
   "expectedPackageFiles": [
@@ -56,8 +56,8 @@
     "/Users/ahmetguvendik/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "/Users/ahmetguvendik/.nuget/packages/microsoft.win32.registry/4.5.0/microsoft.win32.registry.4.5.0.nupkg.sha512",
     "/Users/ahmetguvendik/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
-    "/Users/ahmetguvendik/.nuget/packages/npgsql/7.0.4/npgsql.7.0.4.nupkg.sha512",
-    "/Users/ahmetguvendik/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.4/npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
+    "/Users/ahmetguvendik/.nuget/packages/npgsql/7.0.6/npgsql.7.0.6.nupkg.sha512",
+    "/Users/ahmetguvendik/.nuget/packages/npgsql.entityframeworkcore.postgresql/7.0.11/npgsql.entityframeworkcore.postgresql.7.0.11.nupkg.sha512",
     "/Users/ahmetguvendik/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/ahmetguvendik/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
     "/Users/ahmetguvendik/.nuget/packages/system.identitymodel.tokens.jwt/6.15.1/system.identitymodel.tokens.jwt.6.15.1.nupkg.sha512",

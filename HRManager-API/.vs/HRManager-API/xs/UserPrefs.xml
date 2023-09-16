@@ -1,47 +1,67 @@
 ﻿<Properties StartupConfiguration="{1ECEC7A8-A91E-426C-BEE7-AA0526BF4C3F}|https">
-  <MonoDevelop.Ide.ItemProperties.Presentation.Prenstation PreferredExecutionTarget="/Applications/Brave Browser.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/Prenstation/Controllers/JobController.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/Prenstation/Controllers/CategoryController.cs">
     <Files>
-      <File FileName="Infrastructure/Persistance/Services/TokenHandler.cs" Line="35" Column="1" />
-      <File FileName="Presentation/Prenstation/Controllers/JobController.cs" Line="27" Column="61" />
-      <File FileName="Core/Application/CQRS/Queries/Job/GetAll/GetAllJobQueryRequest.cs" Line="9" Column="3" />
-      <File FileName="Core/Application/CQRS/Queries/Job/GetAll/GetAllJobQueryResponse.cs" Line="6" Column="36" />
-      <File FileName="Core/Application/CQRS/Queries/Job/GetAll/GetAllJobQueryHandler.cs" Line="15" Column="58" />
-      <File FileName="Presentation/Prenstation/Controllers/UserController.cs" Line="1" Column="1" />
-      <File FileName="Presentation/Prenstation/Program.cs" Line="1" Column="1" />
+      <File FileName="Infrastructure/Persistance/Services/TokenHandler.cs" />
+      <File FileName="Presentation/Prenstation/Controllers/JobController.cs" />
+      <File FileName="Core/Application/CQRS/Queries/Job/GetAll/GetAllJobQueryRequest.cs" />
+      <File FileName="Core/Application/CQRS/Queries/Job/GetAll/GetAllJobQueryResponse.cs" />
+      <File FileName="Core/Application/CQRS/Queries/Job/GetAll/GetAllJobQueryHandler.cs" />
+      <File FileName="Presentation/Prenstation/Controllers/UserController.cs" />
+      <File FileName="Presentation/Prenstation/Program.cs" />
+      <File FileName="Presentation/Prenstation/Controllers/CategoryController.cs" Line="23" Column="30" />
+      <File FileName="Core/Application/CQRS/Queries/Category/GetAllCategory/GetAllCategoryQueryRequest.cs" />
+      <File FileName="Core/Application/CQRS/Queries/Category/GetAllCategory/GetAllCategoryQueryResponse.cs" />
+      <File FileName="Core/Application/CQRS/Queries/Category/GetAllCategory/GetAllCategoryQueryHandler.cs" />
+      <File FileName="Core/Application/CQRS/Commands/Category/CreateCategory/CreateCategoryCommandRequest.cs" />
+      <File FileName="Core/Application/CQRS/Commands/Category/CreateCategory/CreateCategoryCommandResponse.cs" />
+      <File FileName="Core/Application/CQRS/Commands/Category/CreateCategory/CreateCategoryCommandHandler.cs" />
+      <File FileName="Presentation/Prenstation/Controllers/EmployeeController.cs" Line="26" Column="13" />
+      <File FileName="Core/Application/CQRS/Queries/Employee/GetAllEmployee/GetAllEmployeeQueryRequest.cs" />
+      <File FileName="Core/Application/CQRS/Queries/Employee/GetAllEmployee/GetAllEmployeeQueryResponse.cs" />
+      <File FileName="Core/Application/CQRS/Queries/Employee/GetAllEmployee/GetAllEmployeeQueryHandler.cs" />
+      <File FileName="Core/Application/CQRS/Commands/Employee/CreateEmployee/CreateEmployeeCommandRequest.cs" />
+      <File FileName="Core/Application/CQRS/Commands/Employee/CreateEmployee/CreateEmployeeCommandHandler.cs" />
+      <File FileName="Core/Application/CQRS/Commands/Employee/CreateEmployee/CreateEmployeeCommandResponse.cs" />
+      <File FileName="Infrastructure/Persistance/Contexts/ProjectDbContext.cs" />
+      <File FileName="Core/Domain/Entities/EmployeeJob.cs" Line="15" Column="1" />
+      <File FileName="Core/Domain/Entities/BaseEntity.cs" />
+      <File FileName="Infrastructure/Persistance/DesignTimeDbContext.cs" />
+      <File FileName="Infrastructure/Persistance/ServiceRegistration.cs" />
+      <File FileName="Core/Domain/Entities/Employee.cs" />
+      <File FileName="Core/Application/CQRS/Commands/Category/RemoveCategory/RemoveCategoryCommandRequest.cs" Line="8" Column="34" />
+      <File FileName="Core/Application/CQRS/Commands/Category/RemoveCategory/RemoveCategoryCommandResponse.cs" Line="7" Column="4" />
+      <File FileName="Core/Application/CQRS/Commands/Category/RemoveCategory/RemoveCategoryCommandHandler.cs" Line="19" Column="56" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="HRManager-API" expanded="True">
+          <Node name="HRManager-API" expanded="True" selected="True">
             <Node name="Core" expanded="True">
               <Node name="Application" expanded="True">
                 <Node name="CQRS" expanded="True">
                   <Node name="Commands" expanded="True">
-                    <Node name="Job" expanded="True" />
-                  </Node>
-                  <Node name="Queries" expanded="True">
-                    <Node name="Job" expanded="True">
-                      <Node name="GetAll" expanded="True" />
+                    <Node name="Category" expanded="True">
+                      <Node name="RemoveCategory" expanded="True" />
                     </Node>
                   </Node>
                 </Node>
                 <Node name="DTOs" expanded="True" />
                 <Node name="Services" expanded="True" />
               </Node>
-              <Node name="Domain" expanded="True" />
+              <Node name="Domain" expanded="True">
+                <Node name="Entities" expanded="True" />
+              </Node>
             </Node>
             <Node name="Infrastructure" expanded="True">
-              <Node name="Persistance" expanded="True">
-                <Node name="Repositories" expanded="True" />
-                <Node name="Services" expanded="True" />
-              </Node>
+              <Node name="Persistance" expanded="True" />
             </Node>
             <Node name="Presentation" expanded="True">
               <Node name="Prenstation" expanded="True">
-                <Node name="Controllers" expanded="True">
-                  <Node name="JobController.cs" selected="True" />
-                </Node>
+                <Node name="Controllers" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -49,10 +69,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Presentation.Prenstation PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
