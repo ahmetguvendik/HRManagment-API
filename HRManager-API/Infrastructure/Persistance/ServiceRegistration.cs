@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Persistance.Contexts;
 using Persistance.Repositories;
+using Persistance.Services;
 
 namespace Persistance
 {
@@ -26,6 +27,7 @@ namespace Persistance
             collection.AddScoped<IEmployeeJobWriteRepository, EmployeeJobWriteRepository>();
             collection.AddScoped<IEmployeeJobReadRepository, EmployeeJobReadRepository>();
             collection.AddScoped<ITokenHandler, Persistance.Services.TokenHandler>();
+            collection.AddScoped<IEmployeeJobService, EmployeeJobService>();
 
         }
     }

@@ -34,6 +34,9 @@
     <None Remove="CQRS\Commands\Job\UpdateJob\" />
     <None Remove="CQRS\Commands\Employee\DeleteEmployee\" />
     <None Remove="CQRS\Commands\Employee\UpdateEmployee\" />
+    <None Remove="CQRS\Queries\EmployeeJob\" />
+    <None Remove="CQRS\Queries\EmployeeJob\GetAllEmployeeJob\" />
+    <None Remove="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CQRS\" />
@@ -63,6 +66,9 @@
     <Folder Include="CQRS\Commands\Job\UpdateJob\" />
     <Folder Include="CQRS\Commands\Employee\DeleteEmployee\" />
     <Folder Include="CQRS\Commands\Employee\UpdateEmployee\" />
+    <Folder Include="CQRS\Queries\EmployeeJob\" />
+    <Folder Include="CQRS\Queries\EmployeeJob\GetAllEmployeeJob\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
