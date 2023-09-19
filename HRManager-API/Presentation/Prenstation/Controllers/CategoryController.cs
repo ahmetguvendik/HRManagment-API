@@ -1,5 +1,6 @@
 ﻿using Application.CQRS.Commands.Category.CreateCategory;
 using Application.CQRS.Commands.Category.RemoveCategory;
+using Application.CQRS.Commands.Category.UpdateCategory;
 using Application.CQRS.Queries.Category.GetAllCategory;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -36,6 +37,13 @@ namespace Prenstation.Controllers
 
         [HttpDelete("{Id}")]
         public async Task<IActionResult> Delete([FromRoute] RemoveCategoryCommandRequest model)
+        {
+            var response = await _mediator.Send(model);
+            return Ok(response);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateCategory([FromBody] UpdateCategoryCommandRequest model)
         {
             var response = await _mediator.Send(model);
             return Ok(response);

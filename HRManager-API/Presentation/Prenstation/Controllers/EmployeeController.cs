@@ -1,4 +1,6 @@
 ﻿using Application.CQRS.Commands.Employee.CreateEmployee;
+using Application.CQRS.Commands.Employee.DeleteEmployee;
+using Application.CQRS.Commands.Employee.UpdateEmployee;
 using Application.CQRS.Queries.Employee.GetAllEmployee;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -30,6 +32,21 @@ namespace Prenstation.Controllers
             var response = await _mediator.Send(model);
             return Ok(response);
         }
+
+        [HttpDelete("{Id}")]
+        public async Task<IActionResult> DeleteEmployee([FromRoute] DeleteEmployeeCommandRequest model)
+        {
+            var response = await _mediator.Send(model);
+            return Ok(response);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateEmployee([FromBody] UpdateEmployeeCommandRequest model)
+        {
+            var response = await _mediator.Send(model);
+            return Ok(response);
+        }
+
     }
 }
 

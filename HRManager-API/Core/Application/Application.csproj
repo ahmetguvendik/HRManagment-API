@@ -30,6 +30,10 @@
     <None Remove="CQRS\Commands\Employee\CreateEmployee\" />
     <None Remove="CQRS\Commands\Category\UpdateCategory\" />
     <None Remove="CQRS\Commands\Category\RemoveCategory\" />
+    <None Remove="CQRS\Commands\Job\RemoveJob\" />
+    <None Remove="CQRS\Commands\Job\UpdateJob\" />
+    <None Remove="CQRS\Commands\Employee\DeleteEmployee\" />
+    <None Remove="CQRS\Commands\Employee\UpdateEmployee\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="CQRS\" />
@@ -55,6 +59,10 @@
     <Folder Include="CQRS\Commands\Employee\CreateEmployee\" />
     <Folder Include="CQRS\Commands\Category\UpdateCategory\" />
     <Folder Include="CQRS\Commands\Category\RemoveCategory\" />
+    <Folder Include="CQRS\Commands\Job\RemoveJob\" />
+    <Folder Include="CQRS\Commands\Job\UpdateJob\" />
+    <Folder Include="CQRS\Commands\Employee\DeleteEmployee\" />
+    <Folder Include="CQRS\Commands\Employee\UpdateEmployee\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
