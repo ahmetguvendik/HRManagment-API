@@ -12,6 +12,7 @@ namespace Prenstation.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize(AuthenticationSchemes = "Admin")]
     public class CategoryController : Controller
     {
         private readonly IMediator _mediator;

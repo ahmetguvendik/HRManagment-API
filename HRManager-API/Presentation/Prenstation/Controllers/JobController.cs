@@ -4,6 +4,7 @@ using Application.CQRS.Commands.Job.RemoveJob;
 using Application.CQRS.Commands.Job.UpdateJob;
 using Application.CQRS.Queries.Job.GetAll;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -29,6 +30,7 @@ namespace Prenstation.Controllers
 
 
         [HttpPost("[action]")]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> CreateJob(CreateJobCommandRequest model)
         {
             var response = await _mediator.Send(model);
@@ -36,6 +38,7 @@ namespace Prenstation.Controllers
         }
 
         [HttpDelete("{Id}")]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> DeleteJob([FromRoute] RemoveJobCommandRequest model)
         {
             var response = await _mediator.Send(model);
@@ -43,6 +46,7 @@ namespace Prenstation.Controllers
         }
 
         [HttpPut]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> UpdateJob([FromBody] UpdateJobCommadRequest model)
         {
             var response = await _mediator.Send(model);
